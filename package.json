@@ -1,0 +1,23 @@
+{
+  "name": "thm",
+  "version": "1.0.0",
+  "description": "Collection of Things from doing THM rooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craft485/THM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Craft485/THM/issues"
+  },
+  "homepage": "https://github.com/Craft485/THM#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.1"
+  }
+}
