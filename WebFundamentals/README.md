@@ -2,7 +2,7 @@
 
 [Room](https://tryhackme.com/room/introtonetworking)
 
-## The OSI Model [^1]
+## The OSI Model <sup id="a1">[1](#f1)</sup>
 
 A standardized computer networking theory, a compact version of the TCP/IP concept used in real-world networking.
 
@@ -22,7 +22,7 @@ There are 7 layers of OSI:
 
 - Layer 4 -- Transport
 
-- A multipurpose layer. The first of which is to choose the protocol over which the data is to be transmitted. The most common protocols are TCP[^2] and UDP[^3]; with TCP the transmission is connection-based which means that a connection between the computers and established an maintained for the duration of the request. This allows for a reliable transmission, as the connection can be used to ensure that the packets all get to the right place. A TCP connection allows the two computers to remain in constant communication to ensure that the data is sent an an acceptable speed, and than any lost data is re-sent. With UDP, the opposite is true, packets if data are essentially thrown at the receiving computer -- if it can't keep up then that's its problem. What this means is that TCP would usually be chosen for situations where accuracy is favored over speed, and UDP would be used in situations where speed is more important. With a protocol selected, the transport layer than divides the transmission up into bite-sized pieces called *segments* for TCP or *datagrams* from UDP, which makes it easier to transmit the message successfully.
+- A multipurpose layer. The first of which is to choose the protocol over which the data is to be transmitted. The most common protocols are TCP<sup id="a2">[2](#f2)</sup> and UDP<sup id="a3">[3](#f3)</sup>; with TCP the transmission is connection-based which means that a connection between the computers and established an maintained for the duration of the request. This allows for a reliable transmission, as the connection can be used to ensure that the packets all get to the right place. A TCP connection allows the two computers to remain in constant communication to ensure that the data is sent an an acceptable speed, and than any lost data is re-sent. With UDP, the opposite is true, packets if data are essentially thrown at the receiving computer -- if it can't keep up then that's its problem. What this means is that TCP would usually be chosen for situations where accuracy is favored over speed, and UDP would be used in situations where speed is more important. With a protocol selected, the transport layer than divides the transmission up into bite-sized pieces called *segments* for TCP or *datagrams* from UDP, which makes it easier to transmit the message successfully.
 
 - Layer 3 -- Network
 
@@ -60,8 +60,8 @@ When you attempt to make a connection, your computer first sends a special reque
 
 ### Footnotes
 
-[^1]: OSI: Open Systems Interconnection
+<b id="f1">1</b> OSI: Open Systems Interconnection [↩](#a1)
 
-[^2]: TCP: Transmission Control Protocol
+<b id="f2">2</b> TCP: Transmission Control Protocol [↩](#a2)
 
-[^3]: UDP: User Datagram Protocol
+<b id="f3">3</b> UDP: User Datagram Protocol [↩](#a3)
